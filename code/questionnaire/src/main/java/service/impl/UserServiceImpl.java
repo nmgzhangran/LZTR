@@ -13,6 +13,7 @@ import javax.mail.internet.MimeMessage;
 import dao.UserDao;
 import model.User;
 import service.UserService;
+
 public class UserServiceImpl implements UserService {
 	private UserDao userDao;
 	/* (non-Javadoc)
